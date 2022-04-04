@@ -1,5 +1,9 @@
+
+
 import org.omg.Messaging.SyncScopeHelper;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Random;
 
 
@@ -25,4 +29,19 @@ public class main {
     }
 
 
+    public void getList()
+    {
+
+        List<Integer> l = new ArrayList<>();
+        l.add(1);
+        l.add(2);
+        l.add(3);
+
+        for (Integer l1:l) {
+
+            System.out.println(l1);
+        }
+
+    }
+    
 }
