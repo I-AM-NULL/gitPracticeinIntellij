@@ -37,9 +37,9 @@ public class main {
         l.add(2);
         l.add(3);
 
-        for (Integer l1:l) {
+        for (Integer Mzc:l) {
 
-            System.out.println(l1);
+            System.out.println(Mzc);
         }
 
     }
